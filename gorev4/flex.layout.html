@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="body.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="aside.css" />
+    <link rel="stylesheet" href="card.css" />
+    <link
+    rel="stylesheet"
+    href="https://netdna.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+  />
+  
+  <link rel="stylesheet" href="bootstrapDatepicker.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://unpkg.com/bootstrap-datepicker@1.9.0/dist/js/bootstrap-datepicker.min.js"></script>
+ 
+  </head>
+  <body>
+    <nav>
+      <a href="#"><i class="fa-2x fa fa-eye"></i></a>
+      <hr />
+      <ul>
+        <li>
+          <a href="#"><i class="fa-2x fa fa-heart"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-2x fa fa-podcast"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-2x fa fa-calendar"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-2x fa fa-cog"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-2x fa fa-comments"></i></a>
+        </li>
+      </ul>
+      <a href="#"><i class="fa-2x fa fa-sign-out"></i></a>
+    </nav>
+
+    <main>
+      <div class="topControls">
+        <div class="listingControls">
+          <a href="#"><i class="fa-x fa fa-list"></i></a>
+          <a href="#"><i class="fa-x fa fa-bars"></i></a>
+        </div>
+        <div class="customSelect">
+          <select name="days" id="days" class="daysControls">
+            <option value="15">Last 15 days</option>
+            <option value="30">Last 30 days</option>
+          </select>
+          <i class="fa fa-caret-down"></i>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <i class="fa fa-twitter"></i>
+          <span class="title">280k</span>
+          <span class="subtitle">Followers</span>
+          <i class="fa fa-ellipsis-h"></i>
+        </div>
+        <div class="card">
+          <i class="fa fa-instagram"></i>
+          <span class="title">680k</span>
+          <span class="subtitle">Followers</span>
+          <i class="fa fa-ellipsis-h"></i>
+        </div>
+        <div class="card">
+            <i class="fa fa-youtube"></i>
+            <span class="title">2.3M</span>
+            <span class="subtitle">Followers</span>
+            <i class="fa fa-ellipsis-h"></i>
+          </div>
+          <div class="card">
+            <i class="fa fa-facebook"></i>
+            <span class="title">50k</span>
+            <span class="subtitle">Followers</span>
+            <i class="fa fa-ellipsis-h"></i>
+          </div>
+        </div>
+          <div>
+            <canvas id="myChart"></canvas>
+            
+          </div>
+       
+            <div class="metrics-table">
+              <table>
+                
+                <thead>
+                  <tr>
+                    <th> Key Metric</th>     
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Clicks</td>
+                    <td>10k</td> 
+                  </tr>
+                  <tr>
+                    <td>Likes</td>
+                    <td>680</td> 
+                  </tr>
+                  <tr>
+                    <td>Followers</td>
+                    <td>8</td> 
+                  </tr>
+                  <tr>
+                    <td>Impressions</td>
+                    <td>550</td> 
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="purplecards">
+              <div class="purplecard">
+                  <span class="subtitle">Endgaganed Users</span>
+                  <span class="title">2.3M</span><br>
+                   <i class="fa fa-arrow-up" style="color:green"></i>
+                   <span class="tittles">%19</span>
+                </div>
+                
+                  <div class="purplecard">
+                      <span class="subtitle">Page İmpressions</span>
+                      <span class="title">2.3M</span><br>
+                       <i class="fa fa-arrow-down" style="color:rgb(170, 53, 53)"></i>
+                       <span class="tittles">%9</span>
+                    </div>
+                
+            </div>
+      
+          
+          
+          
+      </div>
+    </main>
+    <aside>
+        <div class="asideControls">
+            <div class="alistingControls">
+                <a href="#"><i class="fa-x fa fa-bell"style="color:black"></i></a>
+                <button><span><a href="#"><i class="fa-x fa fa-gift"style="color:black"></i></a> 2 NEW UPDATES</span></button>
+                <a href="#"><i class="fa-x fa fa-user"style="color:black"></i></a>
+              </div>
+              <div><img src="foto.img" alt=""></div>
+              
+              <div class="datepicker"></div>
+              <div class="kutular">
+                <div class="kutu">
+                  <i class="fa fa-hand-paper-o"style="color:rgb(221, 195, 130)"></i>
+                  <span class="subtitle">Say hi to Laith Fheart</span>
+                  <img src="man.img" alt="">  
+                   
+                </div>
+              </div>
+              <div class="kutular">
+                <div class="kutu">
+                  <i class="fa fa-hand-paper-o" style="color:rgb(221, 195, 130)"></i>
+                  <span class="subtitle">Say hi to Sidney Dyer </span> 
+                  <img src="kadin.img" alt=""> 
+                   
+                </div>
+              </div>
+            
+
+          </div>
+    </aside>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        
+    const ctx = document.getElementById("myChart");
+    
+
+    new Chart(ctx, {
+        type: "bar",
+        data: {
+            
+            labels: ["January", "February", "March", "April", "May", "June","july"],
+
+            datasets: [
+                {
+                    label: "Gain",
+                    data: [15,60,75,55,60,15,60], 
+                    backgroundColor: "#801f1f", 
+                    borderWidth: 1
+                    
+                },
+                {
+                    label: "Loss",
+                    data: [-15,-35,-25,-35,-10,-20,-55], 
+                    backgroundColor: "#f5d536",   
+                    borderWidth: 1
+                }
+            ]
+        },
+        options: {
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero: true,
+                      
+                    }
+                }]
+            }
+        }
+    });
+
+    $(".datepicker").datepicker();
+});
+
+      </script>
+  </body>
+</html>
